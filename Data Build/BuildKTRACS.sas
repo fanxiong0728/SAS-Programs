@@ -1,3 +1,7 @@
+ *-------------------------------------------------------------------*
+ *  Author:  Fan Xiong            <fanxiong0728@gmail.com>           *
+ *-------------------------------------------------------------------*
+
 /*MACRO TO BUILD KTRACS DATA*/
 %macro BUILDDATA(SET=, DATE1=, DATE2=);
 libname backup "H:\Health Promotion\Injury Disability\secure_injury_data\PDMP\BACKUPS DO NOT OVERWRITE";
