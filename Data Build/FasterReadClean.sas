@@ -8,7 +8,6 @@ LIBNAME MPE "C:\TEMP\MPE";
 libname report "H:\Health Promotion\Injury Disability\xiong_secure\DDPI\Reporting\Sept20165Aug2017";
 LIBNAME PMP "H:\Health Promotion\Injury Disability\secure_injury_data\PDMP";
 
-
 /*READ ALL THE FORMAT DATASETS INTO WORK LIBRARY*/
 proc format cntlin = BACKUP.KTRACS_BIRTH library=WORK ; 
 run;
