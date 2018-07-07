@@ -1,6 +1,14 @@
 
 /*This is a MACRO program to be used with RSUBMIT procedure to create a single year of PDMP indicators required by the CDC for grant reporting and surveilliance. 
 
+*-------------------------------------------------------------------*
+ *  Author:  Fan Xiong            <fanxiong0728@gmail.com>           *
+ * Created:  01 Aug 2017                                             *
+ * Revised:  07 Feb 2018 	                                     *
+ * Version:  1.1                                                     *
+ *-------------------------------------------------------------------*/
+
+/*Revised Feb 7, 2018 to include benzo prescription history*/
 
 %macro pfsindicator(subsetmacro=,START_DATE=,END_DATE=,class=,demo1=,YEAR0=,YEAR1=,YEAR2=,SET0=,SET1=);
 
