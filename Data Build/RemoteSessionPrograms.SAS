@@ -1,6 +1,7 @@
 
 /*A SAS Program Template I used to create multiple summary reports using %include and SAS/Macro with the Remote Sessions procedure*/
 
+/*Options and Directories*/
 options compress=yes REUSE=yes mlogic symbolgen CPUCOUNT=ACTUAL THREADS SASCMD='!sascmd -nosyntaxcheck -CONFIG "C:\Program Files\SASHome\SASFoundation\9.4\nls\en\sasv9.cfg" -SORTSIZE 2G -UBUFSIZE 64K -IBUFSIZE 32767 -BUFNO 200 -IBUFNO 20 -UBUFNO 20 -MEMSIZE 16G -BUFSIZE 64K' sysrputsync autosignon;
 LIBNAME PMP "H:\Health Promotion\Injury Disability\secure_injury_data\PDMP";
 libname backup "H:\Health Promotion\Injury Disability\secure_injury_data\PDMP\BACKUPS DO NOT OVERWRITE";
