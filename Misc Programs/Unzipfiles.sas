@@ -1,8 +1,9 @@
-/*This SAS program was used to unzip the NCHS NVSS single year of age-bridged race population estimate files for multiple years*/
 
  *-------------------------------------------------------------------*
  *  Author:  Fan Xiong            <fanxiong0728@gmail.com>           *
  *-------------------------------------------------------------------*
+ 
+/*This SAS program was used to unzip the NCHS NVSS single year of age-bridged race population estimate files for multiple years*/
 
 filename v2015zip zip 'H:\Health Promotion\Injury Disability\secure_injury_data\NCHS Single Year of Age Population Raw SAS Files\pcen_v2015_y1015_sas7bdat.zip';
 
