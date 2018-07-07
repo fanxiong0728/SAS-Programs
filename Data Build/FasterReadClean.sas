@@ -1,4 +1,7 @@
 /*A SAS Program with a series of DATA steps to create character string variables for faster retrieval of some numeric variables, such as long integers, dates, formats, etc.*/
+ *-------------------------------------------------------------------*
+ *  Author:  Fan Xiong            <fanxiong0728@gmail.com>           *
+ *-------------------------------------------------------------------*
 
 /*Options and Directories*/
 OPTIONS OBS=MAX  COMPRESS=NO THREADS CPUCOUNT=4;
