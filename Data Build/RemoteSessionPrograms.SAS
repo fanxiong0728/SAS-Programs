@@ -1,4 +1,7 @@
 /*A SAS Program Template I used to create read, manipulate, and export summary reports for hospital discharge claims (HD) using %include and SAS/Macro with the Remote Sessions procedure*/
+ *-------------------------------------------------------------------*
+ *  Author:  Fan Xiong            <fanxiong0728@gmail.com>           *
+ *-------------------------------------------------------------------*
 
 options fmtsearch=(WORK HD) compress=yes REUSE=yes mlogic symbolgen CPUCOUNT=ACTUAL THREADS 
 
