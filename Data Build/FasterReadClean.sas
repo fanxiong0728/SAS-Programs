@@ -1,12 +1,13 @@
-/*A SAS Program with a series of DATA steps to create character string variables for faster retrieval of some numeric variables, such as long integers, dates, etc.*/
+/*A SAS Program with a series of DATA steps to create character string variables for faster retrieval of some numeric variables, such as long integers, dates, formats, etc.*/
 
+/*Options and Directories*/
+OPTIONS OBS=MAX  COMPRESS=NO THREADS CPUCOUNT=4;
 LIBNAME pfs "C:\TEMP\Work Folder";
 libname backup "H:\Health Promotion\Injury Disability\secure_injury_data\PDMP\BACKUPS DO NOT OVERWRITE";
 LIBNAME MPE "C:\TEMP\MPE";
 libname report "H:\Health Promotion\Injury Disability\xiong_secure\DDPI\Reporting\Sept20165Aug2017";
 LIBNAME PMP "H:\Health Promotion\Injury Disability\secure_injury_data\PDMP";
 
-OPTIONS OBS=MAX  COMPRESS=NO THREADS CPUCOUNT=4;
 
 /*READ ALL THE FORMAT DATASETS INTO WORK LIBRARY*/
 proc format cntlin = BACKUP.KTRACS_BIRTH library=WORK ; 
