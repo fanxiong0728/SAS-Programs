@@ -1,4 +1,12 @@
 
+
+ *-------------------------------------------------------------------*
+ *  Author:  Fan Xiong            <fanxiong0728@gmail.com>           *
+ *-------------------------------------------------------------------*
+ 
+/*This SAS program was used to unzip the NCHS NVSS single year of age-bridged race population estimate files for
+multiple years using a URL to extract the original data from the CDC FTP site*/
+
 **************
 BINARY TRANSFER (read)
 Reading a file with FTP, BINARY:
